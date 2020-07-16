@@ -19,8 +19,7 @@ MSI Download & Exec Shellcode found here:
 https://www.exploit-db.com/shellcodes/46281
 
 
-
-!!!!IF ANYTHING USEFUL AT ALL IS PASSED ON HERE AT ALL, IT IS THIS RETIRED ARCHIVE....!!!!
+!!!! IF ANYTHING USEFUL IS PASSED ON HERE AT ALL, IT IS THIS RETIRED ARCHIVE....!!!!
 
 https://web.archive.org/web/20120503030935/http://projectshellcode.com/?q=node/12
 
@@ -41,7 +40,6 @@ Includes:
 7. Intro to sockets, bind shell
 
 8. Intro to networking, reverse shell
-
 
 
 other refs:
