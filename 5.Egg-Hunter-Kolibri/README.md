@@ -10,7 +10,8 @@ https://www.corelan.be/index.php/2009/07/23/writing-buffer-overflow-exploits-a-q
 Jumping to shellcode CALL ESP
 
 
-write-ups for exploiting Kolibri:
+
+write-ups for exploiting Kolibri:
 
 all over the place
 
