@@ -1,0 +1,26 @@
+make file "AA" > test.plf
+
+fileFuzz:
+
+1. source file =  test.plf
+
+2. mkdir > DVDX > make-sub folder DVDX
+
+
+3. name Target Directory = C:\xx\xx\DVDX\DVDX
+
+4. Scope > Match Find = AA Replace = A x100 x100
+
+5. click Create (fuzz files created)
+
+GO TO EXECUTE
+
+6.Target Directort = "C:\Program Files\Aviosoft\DVD X Player 5.5 Professional\DVDXPlayer.exe"
+
+7. start file = 1
+
+8.Finsh File = 10
+
+7. milli sec = 4000
+
+8. Click Execute!
