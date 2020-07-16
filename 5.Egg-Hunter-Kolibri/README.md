@@ -3,15 +3,12 @@ Application found here:
 
 https://www.exploit-db.com/exploits/34059
 
-
+Reference to CALL ESP - Jumping to shellcode
 
 https://www.corelan.be/index.php/2009/07/23/writing-buffer-overflow-exploits-a-quick-and-basic-tutorial-part-2/
 
-Jumping to shellcode CALL ESP
 
-
-
-write-ups for exploiting Kolibri:
+Write-ups for exploiting Kolibri:
 
 all over the place
 
@@ -27,7 +24,7 @@ https://www.exploit-db.com/shellcodes/46281
 
 https://web.archive.org/web/20120503030935/http://projectshellcode.com/?q=node/12
 
-includes:
+Includes:
 
 1. Setup cygwin with Linux tools specific for assembly, shellcoding etc...
 
