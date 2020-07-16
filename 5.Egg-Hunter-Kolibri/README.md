@@ -29,21 +29,21 @@ https://web.archive.org/web/20120503030935/http://projectshellcode.com/?q=node/1
 
 includes:
 
-1.setup cygwin with Linux tools specific for assembly, shellcoding etc...
+1. Setup cygwin with Linux tools specific for assembly, shellcoding etc...
 
-2.create simple shellcode
+2. Create simple shellcode
 
-3.win cmd exec shellcode
+3. Windows Command exec shellcode
 
-4.message box shellcode
+4. Message-Box shellcode
 
-5.function hash generation
+5. Function-Hash generation
 
-6.dynamic shellcode
+6. Dynamic shellcode
 
-7.intro to sockets, bind shell
+7. Intro to sockets, bind shell
 
-8.intro to networking, rev shell
+8. Intro to networking, reverse shell
 
 
 
