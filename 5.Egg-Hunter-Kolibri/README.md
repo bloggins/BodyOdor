@@ -27,6 +27,20 @@ https://www.exploit-db.com/shellcodes/46281
 
 https://web.archive.org/web/20120503030935/http://projectshellcode.com/?q=node/12
 
+includes:
+
+1.setup cygwin with Linux tools specific for assembly, shellcoding etc...
+2.create simple shellcode
+3.win cmd exec shellcode
+4.message box shellcode
+5.function hash generation
+6.dynamic shellcode
+7.intro to sockets, bind shell
+8.intro to networking, rev shell
+
+
+
+
 
 other refs:
 
