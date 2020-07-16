@@ -1,0 +1,403 @@
+Total Number of Strings is 681
+Fuzzing
+Fuzzing Variable 0:0
+line read=220 FreeFloat Ftp Server (Version 1.00).
+Read first line
+line read=331 Password required for anonymous.
+line read=500 'PASSanonyousMKD TEST': command not understood
+Fuzzing Variable 0:1
+Read first line
+Variablesize= 5004
+line read=220 FreeFloat Ftp Server (Version 1.00).
+line read=331 Password required for anonymous.
+Fuzzing Variable 0:2
+line read=220 FreeFloat Ftp Server (Version 1.00).
+Read first line
+Variablesize= 5005
+line read=331 Password required for anonymous.
+Fuzzing Variable 0:3
+line read=220 FreeFloat Ftp Server (Version 1.00).
+Read first line
+Variablesize= 21
+line read=331 Password required for anonymous.
+line read=500 'PASSanonyousMKD /.../.../.../.../.../': command not understood
+Fuzzing Variable 0:4
+line read=220 FreeFloat Ftp Server (Version 1.00).
+Read first line
+Variablesize= 3
+line read=331 Password required for anonymous.
+line read=500 'PASSanonyousMKD C:\': command not understood
+Fuzzing Variable 0:5
+Read first line
+Variablesize= 2
+line read=220 FreeFloat Ftp Server (Version 1.00).
+line read=331 Password required for anonymous.
+line read=500 'PASSanonyousMKD C:': command not understood
+Fuzzing Variable 0:6
+line read=220 FreeFloat Ftp Server (Version 1.00).
+Read first line
+Variablesize= 7
+line read=331 Password required for anonymous.
+line read=500 'PASSanonyousMKD C:\$Mft': command not understood
+Fuzzing Variable 0:7
+line read=220 FreeFloat Ftp Server (Version 1.00).
+Read first line
+Variablesize= 48
+line read=331 Password required for anonymous.
+line read=500 'PASSanonyousMKD ../../../../../../../../../../../../etc/hosts%00': command not understood
+Fuzzing Variable 0:8
+line read=220 FreeFloat Ftp Server (Version 1.00).
+Read first line
+Variablesize= 45
+line read=331 Password required for anonymous.
+line read=500 'PASSanonyousMKD ../../../../../../../../../../../../etc/hosts': command not understood
+Fuzzing Variable 0:9
+line read=220 FreeFloat Ftp Server (Version 1.00).
+Read first line
+Variablesize= 49
+line read=331 Password required for anonymous.
+line read=500 'PASSanonyousMKD ../../../../../../../../../../../../etc/passwd%00': command not understood
+Fuzzing Variable 0:10
+Read first line
+Variablesize= 46
+line read=220 FreeFloat Ftp Server (Version 1.00).
+line read=331 Password required for anonymous.
+line read=500 'PASSanonyousMKD ../../../../../../../../../../../../etc/passwd': command not understood
+Fuzzing Variable 0:11
+Read first line
+Variablesize= 49
+line read=220 FreeFloat Ftp Server (Version 1.00).
+line read=331 Password required for anonymous.
+line read=500 'PASSanonyousMKD ../../../../../../../../../../../../etc/shadow%00': command not understood
+Fuzzing Variable 0:12
+Read first line
+Variablesize= 46
+line read=220 FreeFloat Ftp Server (Version 1.00).
+line read=331 Password required for anonymous.
+line read=500 'PASSanonyousMKD ../../../../../../../../../../../../etc/shadow': command not understood
+Fuzzing Variable 0:13
+Read first line
+Variablesize= 47
+line read=220 FreeFloat Ftp Server (Version 1.00).
+line read=331 Password required for anonymous.
+line read=500 'PASSanonyousMKD ../../../../../../../../../../../../boot.ini%00': command not understood
+Fuzzing Variable 0:14
+line read=220 FreeFloat Ftp Server (Version 1.00).
+Read first line
+Variablesize= 44
+line read=331 Password required for anonymous.
+line read=500 'PASSanonyousMKD ../../../../../../../../../../../../boot.ini': command not understood
+Fuzzing Variable 0:15
+line read=220 FreeFloat Ftp Server (Version 1.00).
+Read first line
+Variablesize= 53
+line read=331 Password required for anonymous.
+line read=500 'PASSanonyousMKD ../../../../../../../../../../../../localstart.asp%00': command not understood
+Fuzzing Variable 0:16
+line read=220 FreeFloat Ftp Server (Version 1.00).
+Read first line
+Variablesize= 50
+line read=331 Password required for anonymous.
+line read=500 'PASSanonyousMKD ../../../../../../../../../../../../localstart.asp': command not understood
+Fuzzing Variable 0:17
+line read=220 FreeFloat Ftp Server (Version 1.00).
+Read first line
+Variablesize= 30
+line read=331 Password required for anonymous.
+line read=500 'PASSanonyousMKD //../../../../../../etc/passwd': command not understood
+Fuzzing Variable 0:18
+line read=220 FreeFloat Ftp Server (Version 1.00).
+Read first line
+Variablesize= 23
+line read=331 Password required for anonymous.
+line read=500 'PASSanonyousMKD ..:..:..:..:..:..:..:..': command not understood
+Fuzzing Variable 0:19
+line read=220 FreeFloat Ftp Server (Version 1.00).
+Read first line
+Variablesize= 48
+line read=331 Password required for anonymous.
+line read=500 'PASSanonyousMKD ../../../../../../../winnt/system32/ipconfig.exe': command not understood
+Fuzzing Variable 0:20
+Read first line
+Variablesize= 36
+line read=220 FreeFloat Ftp Server (Version 1.00).
+line read=331 Password required for anonymous.
+line read=500 'PASSanonyousMKD ../../../../../../../winnt/system32/': command not understood
+Fuzzing Variable 0:21
+line read=220 FreeFloat Ftp Server (Version 1.00).
+Read first line
+Variablesize= 18
+line read=331 Password required for anonymous.
+line read=500 'PASSanonyousMKD /localstart.asp%20': command not understood
+Fuzzing Variable 0:22
+line read=220 FreeFloat Ftp Server (Version 1.00).
+Read first line
+Variablesize= 15
+line read=331 Password required for anonymous.
+line read=500 'PASSanonyousMKD immunitysec.com': command not understood
+Fuzzing Variable 0:23
+Read first line
+Variablesize= 16
+line read=220 FreeFloat Ftp Server (Version 1.00).
+line read=331 Password required for anonymous.
+line read=500 'PASSanonyousMKD .immunitysec.com': command not understood
+Fuzzing Variable 0:24
+Read first line
+Variablesize= 3
+line read=220 FreeFloat Ftp Server (Version 1.00).
+line read=331 Password required for anonymous.
+line read=500 'PASSanonyousMKD \\*': command not understood
+Fuzzing Variable 0:25
+Read first line
+Variablesize= 4
+line read=220 FreeFloat Ftp Server (Version 1.00).
+line read=331 Password required for anonymous.
+line read=500 'PASSanonyousMKD \\?\': command not understood
+Fuzzing Variable 0:26
+line read=220 FreeFloat Ftp Server (Version 1.00).
+Read first line
+Variablesize= 5000
+line read=331 Password required for anonymous.
+Fuzzing Variable 0:27
+line read=220 FreeFloat Ftp Server (Version 1.00).
+Read first line
+Variablesize= 5000
+line read=331 Password required for anonymous.
+Fuzzing Variable 0:28
+Read first line
+Variablesize= 5000
+line read=220 FreeFloat Ftp Server (Version 1.00).
+line read=331 Password required for anonymous.
+Fuzzing Variable 0:29
+Read first line
+Variablesize= 5000
+line read=220 FreeFloat Ftp Server (Version 1.00).
+line read=331 Password required for anonymous.
+Fuzzing Variable 0:30
+line read=220 FreeFloat Ftp Server (Version 1.00).
+Read first line
+Variablesize= 2050
+line read=331 Password required for anonymous.
+Fuzzing Variable 0:31
+Read first line
+Variablesize= 115
+line read=220 FreeFloat Ftp Server (Version 1.00).
+line read=331 Password required for anonymous.
+line read=500 'PASSanonyousMKD %25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%00': command not understood
+Fuzzing Variable 0:32
+line read=220 FreeFloat Ftp Server (Version 1.00).
+Read first line
+Variablesize= 130
+line read=331 Password required for anonymous.
+line read=500 'PASSanonyousMKD %25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%255cetc%255chosts': command not understood
+Fuzzing Variable 0:33
+line read=220 FreeFloat Ftp Server (Version 1.00).
+Read first line
+Variablesize= 125
+line read=331 Password required for anonymous.
+line read=500 'PASSanonyousMKD %25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%255cboot.ini': command not understood
+Fuzzing Variable 0:34
+line read=220 FreeFloat Ftp Server (Version 1.00).
+Read first line
+Variablesize= 116
+line read=331 Password required for anonymous.
+line read=500 'PASSanonyousMKD /%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%00': command not understood
+Fuzzing Variable 0:35
+line read=220 FreeFloat Ftp Server (Version 1.00).
+Read first line
+Variablesize= 130
+line read=331 Password required for anonymous.
+line read=500 'PASSanonyousMKD /%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..winnt/desktop.ini': command not understood
+Fuzzing Variable 0:36
+line read=220 FreeFloat Ftp Server (Version 1.00).
+Read first line
+Variablesize= 5
+line read=331 Password required for anonymous.
+line read=500 'PASSanonyousMKD 65536': command not understood
+Fuzzing Variable 0:37
+line read=220 FreeFloat Ftp Server (Version 1.00).
+Read first line
+Variablesize= 9
+line read=331 Password required for anonymous.
+line read=500 'PASSanonyousMKD 0xfffffff': command not understood
+Fuzzing Variable 0:38
+line read=220 FreeFloat Ftp Server (Version 1.00).
+Read first line
+Variablesize= 7
+line read=331 Password required for anonymous.
+line read=500 'PASSanonyousMKD fffffff': command not understood
+Fuzzing Variable 0:39
+line read=220 FreeFloat Ftp Server (Version 1.00).
+Read first line
+Variablesize= 9
+line read=331 Password required for anonymous.
+line read=500 'PASSanonyousMKD 268435455': command not understood
+Fuzzing Variable 0:40
+line read=220 FreeFloat Ftp Server (Version 1.00).
+Read first line
+Variablesize= 1
+line read=331 Password required for anonymous.
+line read=500 'PASSanonyousMKD 1': command not understood
+Fuzzing Variable 0:41
+line read=220 FreeFloat Ftp Server (Version 1.00).
+Read first line
+Variablesize= 1
+line read=331 Password required for anonymous.
+line read=500 'PASSanonyousMKD 0': command not understood
+Fuzzing Variable 0:42
+line read=220 FreeFloat Ftp Server (Version 1.00).
+Read first line
+Variablesize= 2
+line read=331 Password required for anonymous.
+line read=500 'PASSanonyousMKD -1': command not understood
+Fuzzing Variable 0:43
+line read=220 FreeFloat Ftp Server (Version 1.00).
+Read first line
+Variablesize= 10
+line read=331 Password required for anonymous.
+line read=500 'PASSanonyousMKD -268435455': command not understood
+Fuzzing Variable 0:44
+line read=220 FreeFloat Ftp Server (Version 1.00).
+Read first line
+Variablesize= 10
+line read=331 Password required for anonymous.
+line read=500 'PASSanonyousMKD 4294967295': command not understood
+Fuzzing Variable 0:45
+line read=220 FreeFloat Ftp Server (Version 1.00).
+Read first line
+Variablesize= 11
+line read=331 Password required for anonymous.
+line read=500 'PASSanonyousMKD -4294967295': command not understood
+Fuzzing Variable 0:46
+line read=220 FreeFloat Ftp Server (Version 1.00).
+Read first line
+Variablesize= 10
+line read=331 Password required for anonymous.
+line read=500 'PASSanonyousMKD 4294967294': command not understood
+Fuzzing Variable 0:47
+line read=220 FreeFloat Ftp Server (Version 1.00).
+Read first line
+Variablesize= 3
+line read=331 Password required for anonymous.
+line read=500 'PASSanonyousMKD -20': command not understood
+Fuzzing Variable 0:48
+line read=220 FreeFloat Ftp Server (Version 1.00).
+Read first line
+Variablesize= 9
+line read=331 Password required for anonymous.
+line read=500 'PASSanonyousMKD 536870912': command not understood
+Fuzzing Variable 0:49
+line read=220 FreeFloat Ftp Server (Version 1.00).
+Read first line
+Variablesize= 3600
+line read=331 Password required for anonymous.
+Fuzzing Variable 0:50
+line read=220 FreeFloat Ftp Server (Version 1.00).
+Read first line
+Variablesize= 2400
+line read=331 Password required for anonymous.
+Fuzzing Variable 0:51
+Read first line
+Variablesize= 4800
+line read=220 FreeFloat Ftp Server (Version 1.00).
+line read=331 Password required for anonymous.
+Fuzzing Variable 0:52
+Read first line
+Variablesize= 9
+line read=220 FreeFloat Ftp Server (Version 1.00).
+line read=331 Password required for anonymous.
+line read=500 'PASSanonyousMKD localhost': command not understood
+Fuzzing Variable 0:53
+Read first line
+Variablesize= 65534
+line read=220 FreeFloat Ftp Server (Version 1.00).
+line read=331 Password required for anonymous.
+Fuzzing Variable 0:54
+Read first line
+Variablesize= 32768
+line read=220 FreeFloat Ftp Server (Version 1.00).
+line read=331 Password required for anonymous.
+Fuzzing Variable 0:55
+line read=220 FreeFloat Ftp Server (Version 1.00).
+Read first line
+Variablesize= 32767
+line read=331 Password required for anonymous.
+Fuzzing Variable 0:56
+Read first line
+Variablesize= 32766
+line read=220 FreeFloat Ftp Server (Version 1.00).
+line read=331 Password required for anonymous.
+Fuzzing Variable 0:57
+Read first line
+Variablesize= 32765
+line read=220 FreeFloat Ftp Server (Version 1.00).
+line read=331 Password required for anonymous.
+Fuzzing Variable 0:58
+Read first line
+Variablesize= 32764
+line read=220 FreeFloat Ftp Server (Version 1.00).
+line read=331 Password required for anonymous.
+Fuzzing Variable 0:59
+Read first line
+Variablesize= 32763
+line read=220 FreeFloat Ftp Server (Version 1.00).
+line read=331 Password required for anonymous.
+Fuzzing Variable 0:60
+line read=220 FreeFloat Ftp Server (Version 1.00).
+Read first line
+Variablesize= 32762
+line read=331 Password required for anonymous.
+Fuzzing Variable 0:61
+Read first line
+Variablesize= 20000
+line read=220 FreeFloat Ftp Server (Version 1.00).
+line read=331 Password required for anonymous.
+Fuzzing Variable 0:62
+Read first line
+Variablesize= 10000
+line read=220 FreeFloat Ftp Server (Version 1.00).
+line read=331 Password required for anonymous.
+Fuzzing Variable 0:63
+line read=220 FreeFloat Ftp Server (Version 1.00).
+Read first line
+Variablesize= 5000
+line read=331 Password required for anonymous.
+Fuzzing Variable 0:64
+Read first line
+Variablesize= 4097
+line read=220 FreeFloat Ftp Server (Version 1.00).
+line read=331 Password required for anonymous.
+Fuzzing Variable 0:65
+Read first line
+Variablesize= 4096
+line read=220 FreeFloat Ftp Server (Version 1.00).
+line read=331 Password required for anonymous.
+Fuzzing Variable 0:66
+line read=220 FreeFloat Ftp Server (Version 1.00).
+Read first line
+Variablesize= 4095
+line read=331 Password required for anonymous.
+Fuzzing Variable 0:67
+Read first line
+Variablesize= 2048
+line read=220 FreeFloat Ftp Server (Version 1.00).
+line read=331 Password required for anonymous.
+Fuzzing Variable 0:68
+Read first line
+Variablesize= 1024
+line read=220 FreeFloat Ftp Server (Version 1.00).
+line read=331 Password required for anonymous.
+Fuzzing Variable 0:69
+Read first line
+Variablesize= 1023
+line read=220 FreeFloat Ftp Server (Version 1.00).
+line read=331 Password required for anonymous.
+Fuzzing Variable 0:70
+Read first line
+Variablesize= 512
+line read=220 FreeFloat Ftp Server (Version 1.00).
+line read=331 Password required for anonymous.
+line read=500 'PASSanonyousMKD AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA': command not understood
+Fuzzing Variable 0:71
+Read first line
+Variablesize= 420
