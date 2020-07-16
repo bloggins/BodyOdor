@@ -1,0 +1,2 @@
+77AE57CE   FFD4      ntdll       CALL ESP
+
