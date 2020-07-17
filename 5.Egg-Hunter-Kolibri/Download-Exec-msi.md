@@ -3,7 +3,6 @@
 https://web.archive.org/web/20120503030935/http://projectshellcode.com/?q=node/12
 
 1. I followed above first two tutorials (1. Intro tools & setup 2. My first shellcode.) to output shellcode, alternatively follow shellcode developer's write-
-
 up....I'm sure it works!
 
 Shellcode Developer: Kartik Durg
