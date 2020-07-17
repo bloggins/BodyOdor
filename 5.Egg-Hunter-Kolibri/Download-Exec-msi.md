@@ -2,7 +2,13 @@
 
 https://web.archive.org/web/20120503030935/http://projectshellcode.com/?q=node/12
 
-1. Follow above tutorials to output shellcode or follow dudes write-up....I'm sure it works!
+1. I followed above first two tutorials (1. Intro tools & setup 2. My first shellcode.) to output shellcode, alternatively follow shellcode developer's write-
+
+up....I'm sure it works!
+
+Shellcode Developer: Kartik Durg
+
+https://iamroot.blog/2019/01/28/windows-shellcode-download-and-execute-payload-using-msiexec/
 
 2. The following asm does this: #
 
