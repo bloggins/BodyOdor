@@ -1,4 +1,4 @@
-# Note **I hate formatting wikis**
+# *Note **I hate formatting wikis**
 
 https://web.archive.org/web/20120503030935/http://projectshellcode.com/?q=node/12
 
