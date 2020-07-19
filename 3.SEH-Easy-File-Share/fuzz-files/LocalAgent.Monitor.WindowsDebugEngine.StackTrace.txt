@@ -1,0 +1,140 @@
+
+Microsoft (R) Windows Debugger Version 6.12.0002.633 X86
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+CommandLine: C:\EFS Software\Easy File Sharing Web Server\fsws.exe
+Symbol search path is: SRV*http://msdl.microsoft.com/download/symbols
+Executable search path is: 
+ModLoad: 00400000 005c2000   fsws.exe
+ModLoad: 774e0000 77622000   ntdll.dll
+ModLoad: 75610000 756e5000   C:\Windows\system32\kernel32.dll
+ModLoad: 754c0000 7550b000   C:\Windows\system32\KERNELBASE.dll
+ModLoad: 76560000 76595000   C:\Windows\system32\WS2_32.dll
+ModLoad: 75c70000 75d1c000   C:\Windows\system32\msvcrt.dll
+ModLoad: 764b0000 76552000   C:\Windows\system32\RPCRT4.dll
+ModLoad: 757c0000 757c6000   C:\Windows\system32\NSI.dll
+ModLoad: 75d20000 76157000   C:\Windows\system32\WININET.dll
+ModLoad: 75530000 75534000   C:\Windows\system32\api-ms-win-downlevel-user32-l1-1-0.dll
+ModLoad: 762d0000 76399000   C:\Windows\system32\user32.DLL
+ModLoad: 765a0000 765ee000   C:\Windows\system32\GDI32.dll
+ModLoad: 757d0000 757da000   C:\Windows\system32\LPK.dll
+ModLoad: 77690000 7772d000   C:\Windows\system32\USP10.dll
+ModLoad: 75510000 75514000   C:\Windows\system32\api-ms-win-downlevel-shlwapi-l1-1-0.dll
+ModLoad: 765f0000 76647000   C:\Windows\system32\shlwapi.DLL
+ModLoad: 75520000 75524000   C:\Windows\system32\api-ms-win-downlevel-version-l1-1-0.dll
+ModLoad: 74450000 74459000   C:\Windows\system32\version.DLL
+ModLoad: 75290000 75293000   C:\Windows\system32\api-ms-win-downlevel-normaliz-l1-1-0.dll
+ModLoad: 77630000 77633000   C:\Windows\system32\normaliz.DLL
+ModLoad: 76650000 76888000   C:\Windows\system32\iertutil.dll
+ModLoad: 752d0000 752d5000   C:\Windows\system32\api-ms-win-downlevel-advapi32-l1-1-0.dll
+ModLoad: 759d0000 75a71000   C:\Windows\system32\advapi32.DLL
+ModLoad: 75590000 755a9000   C:\Windows\SYSTEM32\sechost.dll
+ModLoad: 754a0000 754b9000   C:\Windows\system32\USERENV.dll
+ModLoad: 75260000 7526b000   C:\Windows\system32\profapi.dll
+ModLoad: 734f0000 73522000   C:\Windows\system32\WINMM.dll
+ModLoad: 10000000 10050000   C:\EFS Software\Easy File Sharing Web Server\ImageLoad.dll
+ModLoad: 001d0000 00215000   C:\EFS Software\Easy File Sharing Web Server\SSLEAY32.dll
+ModLoad: 005d0000 006e7000   C:\EFS Software\Easy File Sharing Web Server\LIBEAY32.dll
+ModLoad: 70aa0000 70aa7000   C:\Windows\system32\WSOCK32.dll
+ModLoad: 75c20000 75c65000   C:\Windows\system32\WLDAP32.dll
+ModLoad: 763a0000 7641b000   C:\Windows\system32\comdlg32.dll
+ModLoad: 73eb0000 7404e000   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.24483_none_2b200f664577e14b\COMCTL32.dll
+ModLoad: 76890000 774dc000   C:\Windows\system32\SHELL32.dll
+ModLoad: 6e710000 6e761000   C:\Windows\system32\WINSPOOL.DRV
+ModLoad: 72da0000 72dbc000   C:\Windows\system32\oledlg.dll
+ModLoad: 76160000 762bf000   C:\Windows\system32\ole32.dll
+ModLoad: 72d80000 72d99000   C:\Windows\system32\OLEPRO32.DLL
+ModLoad: 757e0000 75872000   C:\Windows\system32\OLEAUT32.dll
+ModLoad: 61c00000 61c99000   C:\EFS Software\Easy File Sharing Web Server\sqlite3.dll
+ModLoad: 77640000 7765f000   C:\Windows\system32\IMM32.DLL
+ModLoad: 756f0000 757be000   C:\Windows\system32\MSCTF.dll
+ModLoad: 73b40000 73b80000   C:\Windows\system32\uxtheme.dll
+ModLoad: 73850000 73863000   C:\Windows\system32\dwmapi.dll
+ModLoad: 00280000 00285000   C:\Windows\winhlp32.exe
+ModLoad: 00280000 00285000   C:\Windows\winhlp32.exe
+ModLoad: 00280000 00285000   C:\Windows\winhlp32.exe
+ModLoad: 00280000 00285000   C:\Windows\winhlp32.exe
+ModLoad: 75150000 7515c000   C:\Windows\system32\CRYPTBASE.dll
+ModLoad: 73490000 734a0000   C:\Windows\system32\NLAapi.dll
+ModLoad: 6f2c0000 6f2d0000   C:\Windows\system32\napinsp.dll
+ModLoad: 6f2a0000 6f2b2000   C:\Windows\system32\pnrpnsp.dll
+ModLoad: 74bb0000 74bec000   C:\Windows\System32\mswsock.dll
+ModLoad: 74b10000 74b54000   C:\Windows\system32\DNSAPI.dll
+ModLoad: 6f290000 6f298000   C:\Windows\System32\winrnr.dll
+ModLoad: 6f280000 6f28d000   C:\Windows\system32\wshbth.dll
+ModLoad: 731a0000 731bc000   C:\Windows\system32\IPHLPAPI.DLL
+ModLoad: 73110000 73117000   C:\Windows\system32\WINNSI.DLL
+ModLoad: 72fa0000 72fd8000   C:\Windows\System32\fwpuclnt.dll
+ModLoad: 6fe80000 6fe86000   C:\Windows\system32\rasadhlp.dll
+ModLoad: 744e0000 744e5000   C:\Windows\System32\wshtcpip.dll
+ModLoad: 73530000 73541000   C:\Windows\system32\NETAPI32.DLL
+ModLoad: 734e0000 734e9000   C:\Windows\system32\netutils.dll
+ModLoad: 74e70000 74e89000   C:\Windows\system32\srvcli.dll
+ModLoad: 734d0000 734df000   C:\Windows\system32\wkscli.dll
+ModLoad: 74cb0000 74cc7000   C:\Windows\system32\CRYPTSP.dll
+ModLoad: 74990000 749cb000   C:\Windows\system32\rsaenh.dll
+(1880.1fe8): Access violation - code c0000005 (first chance)
+r
+eax=00000000 ebx=00000000 ecx=41414141 edx=007b8df8 esi=040575fc edi=0012b998
+eip=41414141 esp=04056dd4 ebp=04057864 iopl=0         nv up ei pl nz na po nc
+cs=001b  ss=0023  ds=0023  es=0023  fs=003b  gs=0000             efl=00010202
+41414141 ??              ???
+rF
+fpcw=027F: rn 53 puozdi  fpsw=0000: top=0 cc=0000 --------  fptw=FFFF
+fopcode=0000  fpip=0000:00000000  fpdp=0000:00000000
+st0= 0.000000000000000000000e+0000  st1= 0.000000000000000000000e+0000
+st2= 0.000000000000000000000e+0000  st3= 0.000000000000000000000e+0000
+st4= 0.000000000000000000000e+0000  st5= 0.000000000000000000000e+0000
+st6= 0.000000000000000000000e+0000  st7= 0.000000000000000000000e+0000
+41414141 ??              ???
+rX
+xmm0=0 0 0 0
+xmm1=0 0 0 0
+xmm2=0 0 0 0
+xmm3=0 0 0 0
+xmm4=0 0 0 0
+xmm5=0 0 0 0
+xmm6=0 0 0 0
+xmm7=0 0 0 0
+41414141 ??              ???
+
+
+kb
+ChildEBP RetAddr  Args to Child              
+WARNING: Frame IP not in any known module. Following frames may be wrong.
+04056dd0 41414141 41414141 04002741 0012b998 0x41414141
+*** WARNING: Unable to verify checksum for fsws.exe
+*** ERROR: Module load completed but symbols could not be loaded for fsws.exe
+04057864 005a38e8 ffffffff 0056c768 00000000 0x41414141
+04057868 ffffffff 0056c768 00000000 00000000 fsws+0x1a38e8
+0405786c 0056c768 00000000 00000000 00000000 0xffffffff
+04057870 00000000 00000000 00000000 00000000 fsws+0x16c768
+
+
+.load C:\peach\Debuggers\DebugEngine\msec86.dll
+!exploitable -m
+IDENTITY:HostMachine\HostUser
+PROCESSOR:X86
+CLASS:USER
+QUALIFIER:USER_PROCESS
+EVENT:DEBUG_EVENT_EXCEPTION
+EXCEPTION_FAULTING_ADDRESS:0x41414141
+EXCEPTION_CODE:0xC0000005
+EXCEPTION_LEVEL:FIRST_CHANCE
+EXCEPTION_TYPE:STATUS_ACCESS_VIOLATION
+EXCEPTION_SUBTYPE:READ
+MAJOR_HASH:0x49446722
+MINOR_HASH:0x52720a22
+STACK_DEPTH:5
+STACK_FRAME:Unknown
+STACK_FRAME:Unknown
+STACK_FRAME:fsws+0x1a38e8
+STACK_FRAME:Unknown
+STACK_FRAME:fsws+0x16c768
+INSTRUCTION_ADDRESS:0x0000000041414141
+INVOKING_STACK_FRAME:2
+DESCRIPTION:Read Access Violation at the Instruction Pointer
+SHORT_DESCRIPTION:ReadAVonIP
+CLASSIFICATION:EXPLOITABLE
+BUG_TITLE:Exploitable - Read Access Violation at the Instruction Pointer starting at Unknown Symbol @ 0x0000000041414141 called from fsws+0x00000000001a38e8 (Hash=0x49446722.0x52720a22)
+EXPLANATION:Access violations at the instruction pointer are exploitable if not near NULL.
