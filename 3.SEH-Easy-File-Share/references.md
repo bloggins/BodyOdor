@@ -12,6 +12,6 @@ https://www.fuzzysecurity.com/
 
 Understanding SEH Overwrites:
 
-SANS 660 *will provide materials if repuested
+SANS 660 *will provide materials if requested
 
 
