@@ -1,1 +1,0 @@
-python process_monitor.py -c fsws.crashbin -l 2 -p fsws.exe -P 26002 
