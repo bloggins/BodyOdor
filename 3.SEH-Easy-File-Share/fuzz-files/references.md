@@ -3,7 +3,7 @@ To start building peach xml file:
 1. Use BurpSuite to capture a request to Easy-File-Share WebServer
 
 i.e.
-<
+'''
 GET / HTTP/1.1
 Host: 172.16.0.24
 User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:78.0) Gecko/20100101 Firefox/78.0
@@ -15,7 +15,7 @@ Cookie: SESSIONID=4219; UserID=; PassWD=
 Upgrade-Insecure-Requests: 1
 If-Modified-Since: Fri, 11 May 2012 10:11:48 GMT
 Cache-Control: max-age=0
->
+'''
 2. Start constructing xml based off references below.....
 
 i.e.
