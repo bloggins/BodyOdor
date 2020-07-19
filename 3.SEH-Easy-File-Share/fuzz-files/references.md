@@ -5,25 +5,15 @@ To start building peach xml file:
 i.e.
 
 GET / HTTP/1.1
-
 Host: 172.16.0.24
-
 User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:78.0) Gecko/20100101 Firefox/78.0
-
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
-
 Accept-Language: en-CA,en-US;q=0.7,en;q=0.3
-
 Accept-Encoding: gzip, deflate
-
 Connection: close
-
 Cookie: SESSIONID=4219; UserID=; PassWD=
-
 Upgrade-Insecure-Requests: 1
-
 If-Modified-Since: Fri, 11 May 2012 10:11:48 GMT
-
 Cache-Control: max-age=0
 
 2. Start constructing xml based off references below.....
