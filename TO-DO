@@ -1,0 +1,5 @@
+1. Unicode overflow
+
+2. Stack-Based overflow (Vanilla EIP overwrite) with Stack Pivot attempt.
+
+Just need to document.
