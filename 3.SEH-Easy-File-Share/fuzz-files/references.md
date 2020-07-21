@@ -45,3 +45,6 @@ https://github.com/sirusdv/EdgeHTTP2Fuzzer
 
 
 **PLUS the peachpro fuzz materials, I found from previous course. Will Include main docs used, but will provide complete package for any who I know.
+
+
+*After a considerable amount of adjusting / fuzzing found repeatable crashes in the UserID parameter*
