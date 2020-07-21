@@ -69,12 +69,10 @@ SUCH DAMAGE.
 			<String value="Cookie: " mutable="false" token="true"/>
 			<String value="SESSIONID=6771; " mutable="false" token="true"/>
 			
-			<!-- fuzz UserID -->
 			<String value="UserID=" mutable="false" token="true"/>
 			<String value="" />
 			<String value="; " mutable="false" token="true"/>
 			
-			<!-- fuzz PassWD -->
 			<String value="PassWD=" mutable="false" token="true"/>
 			<String value="" />
 			<String value="; " mutable="false" token="true"/>				
@@ -87,7 +85,7 @@ SUCH DAMAGE.
 	</DataModel>	
 	
 	<DataModel name="DataResponse">
-		<!-- server reply, we don't care -->
+		
 		<String value="" />
 	</DataModel>
 
@@ -107,7 +105,7 @@ SUCH DAMAGE.
 			<Param name="CommandLine" value="C:\EFS Software\Easy File Sharing Web Server\fsws.exe"/>
 		</Monitor>
 		
-		<!-- close the popup window asking us to buy the software before running tests --> 
+		 
 		<Monitor class="PopupWatcher">
 			<Param name="WindowNames" value="Registration - unregistered"/>
 		</Monitor>
@@ -122,11 +120,11 @@ SUCH DAMAGE.
 		</Publisher>
 		
 		<Logger class="File">
-			<!-- save crash information in the Logs directory -->
+			
 			<Param name="Path" value="Logs"/>
 		</Logger>
 		
-		<!-- use a finite number of test cases that test UserID first, followed by PassWD -->
+		
 		<Strategy class="Sequential" />
 
 	</Test>	
