@@ -54,7 +54,7 @@ call eax
 6. Using Cygwin
 
 7.xvz@xvz-PC ~
-$ nasm -f win32 msi.asm -o msi.bin
+$ nasm -f win32 msi.asm -o msi.o
 
 8.Get rid of null bytes
 
