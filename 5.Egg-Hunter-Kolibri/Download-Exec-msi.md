@@ -50,7 +50,6 @@ call eax
 --------------assembly end----------------------------------
 ```
 5. Save as msi.asm
-
 6. Using Cygwin
 
 7.xvz@xvz-PC ~
