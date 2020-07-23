@@ -1,1 +1,31 @@
-a
+FileFuzz:
+
+https://securiteam.com/tools/5pp051fgue/
+
+make file "AAAA" > test.m3u
+
+fileFuzz:
+
+1. source file =  test.m3u
+
+2. mkdir > M3U > make-sub folder M3U
+
+3. name Target Directory = C:\xx\xx\M3U\M3U
+
+4. Scope > Match Find = AAAA Replace = AA x100 x100
+
+5. click Create (fuzz files created)
+
+6. after test files created Target Directory = C:\xx\xx\M3U
+
+GO TO EXECUTE
+
+7.Target Directort = "C:\Program Files\Triologic\Triologic Media Player\triomp8.exe"
+
+8. start file = 0
+
+9.Finsh File = 10
+
+10. milli sec = 15000
+
+11. Click Execute!
