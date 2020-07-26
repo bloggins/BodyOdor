@@ -1,19 +1,42 @@
-WinREPL: https://github.com/zerosum0x0/WinREPL
+WinREPL: 
+
+https://github.com/zerosum0x0/WinREPL
 
 WinDBG usage:
 
 
-WinDBG general information: https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/
+WinDBG general information: 
 
-WinDBG configuration: https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/getting-started-with-windows-debugging
 
-WinDBG configuration in VMWare: http://silverstr.ufies.org/lotr0/windbg-vmware.html
+https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/
 
-WinDBG configuration in VirtualBox: https://hshrzd.wordpress.com/2017/05/28/starting-with-windows-kernel-exploitation-part-1-setting-up-the-lab/
 
-WinDBG Lab: https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debug-universal-drivers---step-by-step-lab--echo-kernel-mode-
+WinDBG configuration: 
 
-WinDBG Useful commands reference: https://briolidz.wordpress.com/2013/11/17/windbg-some-debugging-commands/
+
+https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/getting-started-with-windows-debugging
+
+
+WinDBG configuration in VMWare: 
+
+
+http://silverstr.ufies.org/lotr0/windbg-vmware.html
+
+
+WinDBG configuration in VirtualBox: 
+
+
+https://hshrzd.wordpress.com/2017/05/28/starting-with-windows-kernel-exploitation-part-1-setting-up-the-lab/
+
+
+WinDBG Lab: 
+
+
+https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debug-universal-drivers---step-by-step-lab--echo-kernel-mode-
+
+WinDBG Useful commands reference: 
+
+https://briolidz.wordpress.com/2013/11/17/windbg-some-debugging-commands/
 
 
 Module 0x01 Custom Shellcode Creation:
