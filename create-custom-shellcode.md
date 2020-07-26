@@ -1,7 +1,7 @@
 WinREPL: https://github.com/zerosum0x0/WinREPL
 
 WinDBG usage:
-AWE students are expected to know how to use the WinDBG debugger
+
 
 WinDBG general information: https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/
 
@@ -15,7 +15,10 @@ WinDBG Lab: https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/d
 
 WinDBG Useful commands reference: https://briolidz.wordpress.com/2013/11/17/windbg-some-debugging-commands/
 
+
 Module 0x01 Custom Shellcode Creation:
+
+
 Module 0x02 DEP/ASLR/EMET Bypass and Sandbox Escape via Flash HeapSpray:
 
 https://www.offensive-security.com/vulndev/disarming-and-bypassing-emet-5-1/
@@ -59,6 +62,7 @@ http://casual-scrutiny.blogspot.sg/2015/01/simple-emet-eaf-bypass.html
 
 Module 0x03 32-bit Kernel Driver Exploitation:
 
+
 https://www.offensive-security.com/vulndev/ms11-080-voyage-into-ring-zero/
 
 https://github.com/hacksysteam/HackSysExtremeVulnerableDriver
@@ -93,7 +97,9 @@ https://rootkits.xyz/blog/2017/08/kernel-stack-overflow/
 
 https://rootkits.xyz/blog/2017/09/kernel-write-what-where/
 
+
 Module 0x04 64-bit Kernel Driver Exploitation:
+
 
 http://trackwatch.com/windows-kernel-pool-spraying/
 
@@ -102,6 +108,7 @@ https://blahcat.github.io/2017/08/31/arbitrary-write-primitive-in-windows-kernel
 
 
 Additional resources
+
 
 https://github.com/secfigo/Awesome-Fuzzing
 
@@ -119,12 +126,19 @@ https://github.com/Cn33liz/HSEVD-StackOverflowX64
 
 https://github.com/Cn33liz/HSEVD-VariousExploits
 
+
 AWE reviews:
+
+
 https://www.dearbytes.com/blog/our-pentester-on-tour-advanced-windows-exploitation-course-review/
+
 http://theevilbit.blogspot.sg/2015/09/offensive-security-advanced-windows.html
+
 https://forsec.nl/2016/06/exploiting-the-forensic-investigator-awe-course-training/
 
+
 Free online practice labs and capture the flag sandboxes:
+
 
 https://www.hackthebox.eu/invite
 
