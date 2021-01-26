@@ -1,0 +1,308 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0088)https://w3.hrs.tdbank.ca/psp/HRPRD/EMPLOYEE/HRMS -->
+<HTML lang="en" dir="ltr"><!-- Copyright (c) 2000, 2013, Oracle and/or its affiliates. All rights reserved. --><!--
+* ***************************************************************
+*  This software and related documentation are provided under a
+*  license agreement containing restrictions on use and
+*  disclosure and are protected by intellectual property
+*  laws. Except as expressly permitted in your license agreement
+*  or allowed by law, you may not use, copy, reproduce,
+*  translate, broadcast, modify, license, transmit, distribute,
+*  exhibit, perform, publish or display any part, in any form or
+*  by any means. Reverse engineering, disassembly, or
+*  decompilation of this software, unless required by law for
+*  interoperability, is prohibited.
+*  The information contained herein is subject to change without
+*  notice and is not warranted to be error-free. If you find any
+*  errors, please report them to us in writing.
+*  
+*  Copyright (C) 1988, 2012, Oracle and/or its affiliates.
+*  All Rights Reserved.
+* ***************************************************************
+--><HEAD><META 
+content="IE=5.0000" http-equiv="X-UA-Compatible">
+ <TITLE>Oracle PeopleSoft Sign-in</TITLE> 
+<META http-equiv="X-UA-Compatible" content="IE=Edge"> 
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">    
+<META name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,user-scalable=yes"> 
+ 
+<META name="apple-mobile-web-app-capable" content="yes"> 
+<META name="mobile-web-app-capable" content="yes"> 
+<SCRIPT language="JavaScript">
+    var sDomain = ".tdbank.ca";
+    try {
+        document.domain = ".tdbank.ca";
+    }
+    catch (err) {; }
+</SCRIPT>
+ 
+<SCRIPT language="JavaScript">
+  function signin(form)
+  {
+    var docLoc=new String(document.location);
+    var iLast= docLoc.lastIndexOf("?&");
+    if (docLoc.length == (iLast+2))
+    {
+      docLoc = docLoc.substring(0, iLast);
+    }
+
+    if (docLoc.indexOf("?cmd=")==-1 && docLoc.indexOf("?")!=-1)
+    {
+      if (docLoc.indexOf("&cmd=login")==-1)
+      {
+        var i=docLoc.length - 1;
+        var j= docLoc.lastIndexOf("&");
+        if (j!=-1 && i==j)
+          form.action=docLoc+form.action.substring(form.action.indexOf("?")+1,form.action.length);
+        else
+          form.action=docLoc+"&"+form.action.substring(form.action.indexOf("?")+1,form.action.length);
+      }
+      else
+        form.action=docLoc.substring(0,docLoc.indexOf("&cmd=login"))+"&cmd=login"+docLoc.substring(docLoc.indexOf("&languageCd="),docLoc.length);
+    }
+
+    var now=new Date();
+    form.timezoneOffset.value=now.getTimezoneOffset();
+    return ;
+  }
+
+  function setFocus()
+  {
+    try
+    {document.login.userid.focus()}
+    catch (e)
+    {};
+    return;
+  }
+
+  function setErrorImg()
+  {
+    var login_error = document.getElementById('login_error').innerHTML;
+    var discovery_error = document.getElementById('discovery_error').innerHTML;
+    var browsercheck_error = document.getElementById('browsercheck_error').innerHTML;
+    
+    if (login_error.length != 0 || discovery_error.length != 0 || browsercheck_error.length != 0)
+    {
+      document.getElementById('error_img').style.display = 'block';
+      if (login_error.length != 0)
+        document.getElementById('login_error').style.visibility = 'visible';
+      if (discovery_error.length != 0)
+        document.getElementById('discovery_error').style.visibility = 'visible';
+      document.getElementById('error_link').focus();
+    }
+    else
+      setFocus();
+  }
+
+  function clearRecentSearch() {
+    if (typeof(window.sessionStorage) !== "undefined") {
+      try {
+        sessionStorage.clear();
+      } catch (e) {}
+    }
+  }
+
+  function submitAction(form)
+  {
+    signin(form);
+    form.Submit.disabled=true;
+    form.submit();
+  }
+</SCRIPT>
+
+<META name="GENERATOR" content="MSHTML 11.00.10570.1001"></HEAD> 
+<BODY onload="setErrorImg(); clearRecentSearch();">
+<TABLE width="100%" height="99%" border="0" cellspacing="0" cellpadding="0">
+  <TBODY>
+  <TR>
+    
+    <TD height="68" align="left" valign="top"><IMG width="256" height="125" 
+      alt="Oracle PeopleSoft Sign-in" <img src=data:image/png;base64,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 />
+  <TR>
+    <TD>
+      <TABLE width="100%" border="0" cellspacing="0" cellpadding="0">
+        <TBODY>
+        <TR>
+          <TD width="25%" align="center" bgcolor="#ffffff">&nbsp;</TD>
+          <TD width="50%" height="3" align="center" class="psloginerror" 
+          bgcolor="#ffffff"><BR><FONT color="#ff0000">PeopleSoft / MyHR system 
+            availability:</FONT>                
+            <TABLE height="3" class="psloginerror" border="0" cellspacing="3" 
+            cellpadding="0">
+              <TBODY>
+              <TR>
+                <TD colspan="3"><FONT color="#ff0000">&nbsp;</FONT></TD></TR>
+              <TR>
+                <TD width="250"><FONT color="#ff0000">Time Reporting &amp; 
+                  Management (US)</FONT></TD>
+                <TD width="200"><FONT color="#ff0000">Monday to 
+                Sunday</FONT></TD>
+                <TD width="200"><FONT color="#ff0000"><B>24 hour 
+                  access</B></FONT></TD></TR>
+              <TR>
+                <TD><FONT color="#ff0000">All other transactions</FONT></TD>
+                <TD><FONT color="#ff0000">Monday to Sunday</FONT></TD>
+                <TD><FONT color="#ff0000"><B>5:00 am ET to 
+                Midnight</B></FONT></TD></TR></TBODY></TABLE></TD>
+          <TD width="25%" bgcolor="#ffffff">&nbsp;</TD></TR></TBODY></TABLE></TD></TR><!-- TDBFG - END - Add the logon page messages --> 
+     
+  <TR>
+    <TD height="250" align="center" valign="top">
+      <TABLE width="590" border="0" cellspacing="0" cellpadding="0">
+        <TBODY>
+        <TR>
+          <TD width="600" height="318" align="center" valign="top">
+            <TABLE width="100%" height="273" border="0" cellspacing="0" 
+            cellpadding="0">
+              <TBODY>
+              <TR>
+                <TD>
+                  <TABLE width="100%" border="0" cellspacing="0" 
+cellpadding="0">
+                    <TBODY>
+                    <TR><!-- TD - Remove the style and make full size 
+              <td width="50%" height="200" valign="middle" class="psloginframe">  --> 
+                                      
+                      <TD width="100%" height="200" valign="middle">
+                        <TABLE width="100%" border="0" cellspacing="0" 
+                        cellpadding="0">
+                          <FORM name="login" id="login" onsubmit="signin(document.login)" 
+                          action="?cmd=login&amp;languageCd=ENG" method="post" 
+                          autocomplete="off"></FORM><INPUT name="timezoneOffset" id="timezoneOffset" type="hidden" value="0"> 
+                                               
+<INPUT name="ptmode" id="ptmode" type="hidden" value="f"> 
+                                               <INPUT name="ptlangcd" id="ptlangcd" type="hidden" value="ENG"> 
+                                               <INPUT name="ptinstalledlang" id="ptinstalledlang" type="hidden" value="CFR,ENG"> 
+                               					   
+                        <TABLE width="100%" border="0" cellspacing="0" 
+                        cellpadding="0"><!-- TD - Move this section after the login section 
+                              <tr>
+                                <div style="text-align:center">
+                                <h1 id="error_img" style="display:none"><a id ="error_link" href="javascript:setFocus();" tabindex="1"><img src="/HRPRD/images/PT_LOGIN_ERROR.gif" alt="Error" border="0"/></a></h1>
+                                <h2 class="psloginerror" id="login_error" style="visibility:hidden"></h2>
+                                <h2 class="psloginerror" id="discovery_error" style="visibility:hidden"></h2>
+                                </div>
+                                <div class="psloginerror" id="browsercheck_error" style="text-align:left"></div>
+                              </tr>  --> 
+                                                        
+                          <TBODY>
+                          <TR>
+                            <TD width="45%" height="25" align="right"><LABEL 
+                              class="psloginlabel" for="userid">User 
+                            ID</LABEL></TD>
+                            <TD width="1%" height="25">&nbsp;</TD>
+                            <TD width="54%" 
+height="25"><INPUT name="userid" tabindex="2" class="pslogineditbox" id="userid" type="text" size="15"></TD></TR>
+                          <TR>
+                            <TD height="35" align="right"><LABEL class="psloginlabel" 
+                              for="pwd">Password</LABEL></TD>
+                            <TD height="35">&nbsp;</TD>
+                            <TD 
+height="35"><INPUT name="pwd" tabindex="3" class="pslogineditbox" id="pwd" type="password" size="15"></TD></TR>
+                          <TR>
+                            <TD height="35">&nbsp;</TD>
+                            <TD height="35">&nbsp;</TD>
+                            <TD 
+height="35"><INPUT name="Submit" tabindex="4" class="psloginbutton" onclick="submitAction(document.login)" type="submit" value="Sign In"></TD></TR><!-- TD START - This section was moved from above and had some things added --> 
+                                                        
+                          <TR>
+                            <TD height="35" colspan="3">&nbsp;</TD></TR>
+                          <TR>
+                            <TD id="error_img" style="display: none;" colspan="3"><A 
+                              tabindex="1" id="error_link" href="javascript:setFocus();"></A></TD></TR>
+                          <TR>
+                            <TD class="psloginerror" id="login_error" style="visibility: hidden;" 
+                            colspan="3">
+<SCRIPT language="JavaScript">
+                 					//TD Javascript code to check and replace delivered error messages.
+                          var errorString = "";
+                          var errorString2 = errorString.replace("\/", "");
+                          var testMatch = new RegExp("Your User ID andor Password are invalid.", "g");
+                          var TDError1 = errorString2.match(testMatch);
+                          if (TDError1) {
+                           document.write("You have typed an incorrect password or your password has expired.  Please verify your User ID and password or contact the Technology Service Desk for assistance:");
+                           document.write("<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1-866-523-4357 ");
+                           document.write("<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;");
+                           document.write("<br><br>");
+                           errorString="";
+                         }  
+                         if (errorString) {
+                          document.write("");
+                          document.getElementById('login_error').style.visibility = 'visible';
+                        }
+                      </SCRIPT>
+                                                   </TD></TR>
+                          <TR>
+                            <TD class="psloginerror" id="discovery_error" style="visibility: hidden;" 
+                            colspan="3"></TD></TR>
+                          <TR>
+                            <TD class="psloginerror" id="browsercheck_error" 
+                            style="text-align: left;" colspan="3"></TD></TR><!-- TD END --> 
+                                          </TBODY></TABLE></TD><!-- TD - Remove the language section 
+            <div id="ps_select_parent" >
+              <div id= "ps_select_box" class="ps_box-control">            
+                <select id="ptlangsel" name="ptlangsel"  title="Select a Language" class="ps_select" onChange="ptSignon().changeLangFunc(this, event)">
+                  <option value="ENG" title="English">English</option>
+                  <option value="UKE" title="UK English">UK English</option>
+                  <option value="ESP" title="Spanish">Espa&ntilde;ol</option>
+                  <option value="DAN" title="Danish">Dansk</option>
+                  <option value="GER" title="German">Deutsch</option>
+                  <option value="FRA" title="French">Fran&ccedil;ais</option>
+                  <option value="CFR" title="Canadian French">Fran&ccedil;ais&nbsp;du&nbsp;Canada</option>
+                  <option value="ITA" title="Italian">Italiano</option>
+                  <option value="HUN" title="Hungarian">Magyar</option>
+                  <option value="DUT" title="Dutch">Nederlands</option>
+                  <option value="NOR" title="Norwegian">Norsk</option>
+                  <option value="POL" title="Polish">Polski</option>
+                  <option value="POR" title="Portuguese">Portugu&ecirc;s</option>
+                  <option value="ROM" title="Romanian">Rom&#x00E2;n&#x0103;</option>
+                  <option value="FIN" title="Finnish">Suomi</option>
+                  <option value="SVE" title="Swedish">Svenska</option>
+                  <option value="TUR" title="Turkish">T&#x00FC;rk&#x00E7;e</option>
+                  <option value="CZE" title="Czech">&#x010C;e&#x0161;tina</option>
+                  <option value="JPN" title="Japanese">&#x65E5;&#x672C;&#x8A9E;</option>
+                  <option value="KOR" title="Korean">&#xD55C;&#xAD6D;&#xC5B4;</option>
+                  <option value="RUS" title="Russian">&#x0420;&#x0443;&#x0441;&#x0441;&#x043A;&#x0438;&#x0439;</option>
+                  <option value="THA" title="Thai">&#x0E20;&#x0E32;&#x0E29;&#x0E32;&#x0E44;&#x0E17;&#x0E22;</option>
+                  <option value="ZHS" title="Simplified Chinese">&#x7B80;&#x4F53;&#x4E2D;&#x6587;</option>
+                  <option value="ZHT" title="Traditional Chinese">&#x7E41;&#x9AD4;&#x4E2D;&#x6587;</option>
+                  <option value="ARA" title="Arabic">&#x0627;&#x0644;&#x0639;&#x0631;&#x0628;&#x064A;&#x0629;</option>
+                  <option value="VIE" title="Vietnamese">Ti&#7869;ng Vi&#7879;t</option>
+                  <option value="BUL" title="Bulgarian">&#x0431;&#x044a;&#x043b;&#x0433;&#x0430;&#x0440;&#x0441;&#x043a;&#x0438;</option>
+                  <option value="CRO" title="Croatian">hrvatski</option>
+                  <option value="GRK" title="Greek">&#x0395;&#x03bb;&#x03bb;&#x03b7;&#x03bd;&#x03b9;&#x03ba;&#x03ac;</option>
+                  <option value="HEB" title="Hebrew">&#x05e2;&#x05d1;&#x05e8;&#x05d9;&#x05ea;</option>
+                  <option value="MAY" title="Bahasa Malay">Bahasa Melayu</option>
+                  <option value="SER" title="Serbian">&#x0441;&#x0440;&#x043f;&#x0441;&#x043a;&#x0438;</option>
+                  <option value="SLK" title="Slovak">sloven&#x010d;ina</option>
+                  <option value="SLV" title="Slovenian">sloven&#x0161;&#x010d;ina</option>
+                </select>
+              </div>
+            </div>			  
+						  --> 
+                                              </TR>
+                    <TR><!--                          <td height="80" valign="middle" class="psmessageframe">  TDMOD --> 
+                                                
+                      <TD height="80" valign="middle">
+                        <TABLE width="100%" border="0" cellspacing="0" 
+                        cellpadding="5">
+                          <TBODY>
+                          <TR>
+                            <TD>
+                              <DIV style="text-align: center;">
+                              <P 
+                        class="pslogintext"></P></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD align="center">&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD valign="bottom">
+      <TABLE width="100%" border="0" cellspacing="0" cellpadding="5">
+        <TBODY>
+        <TR><!-- <td height="30" colspan="2" valign="bottom" class="pslogincopyright">&nbsp;</td> TDMOD --> 
+                          
+          <TD height="30" valign="bottom" colspan="2">&nbsp;</TD></TR>
+        <TR>
+          <TD width="50%" class="pslogincopyright" valign="bottom">Copyright © 
+            2000, 2017, Oracle and/or its affiliates. All rights reserved. </TD>
+          <TD 
+width="569">&nbsp;</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></BODY></HTML>
